@@ -13,7 +13,6 @@ Otherwise, DQUBO permits that the resulting dict can be returned to users, allow
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [DQUBO Plus](#dqubo-plus)
 * [Support](#support)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -184,15 +183,6 @@ A list of supported QUBO solvers into DQUBO is below:
     neal_solution = model.solve(Neal(), num_reads=1, num_sweeps=10, beta_range=[10, 200])
 
     ```
-
-## DQUBO Plus
-
-DQUBO Plus is the enterprise version for DQUBO. It differentiates from DQUBO by adding extra capabilities for addressing QUBO problems and their intelligent orchestration among multiple solvers. 
-
-Features:
-
-- QUBO cutting: subdividing the QUBO into multiple parts, thus, allowing larger problems to be addressed into resource-constrained machines.
- 
 
 ## Support
 
